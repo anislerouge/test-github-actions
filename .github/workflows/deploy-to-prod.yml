@@ -16,4 +16,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          script: cd /home/ubuntu && git pull
+          script: cd /home/ubuntu/test-github-actions && git pull
